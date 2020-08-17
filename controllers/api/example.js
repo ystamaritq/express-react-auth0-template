@@ -1,5 +1,5 @@
 const router = require("express").Router();
-var db = require("../../models");
+var db = require("../../models/sql");
 const jwt_decode = require("jwt-decode");
 
 // example auth0 get Email function
