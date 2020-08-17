@@ -6,6 +6,7 @@ import { useAuth0 } from "@auth0/auth0-react";
 import PrivateRoute from "./components/PrivateRoute";
 
 import HomePage from "./pages/Home";
+import Loading from "./components/Loading";
 
 const App = () => {
 	const { isLoading } = useAuth0();

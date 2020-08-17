@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Express React Auth0 Template",
+  "name": "Express React Auth0 Template",
   "icons": [
     {
       "src": "favicon.ico",
