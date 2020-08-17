@@ -1,9 +1,8 @@
-require("dotenv").config();
-
 const express = require("express");
 const routes = require("./controllers");
 const app = express();
 const morgan = require("morgan");
+require("dotenv").config();
 
 var db = require("./models");
 
